@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="usbong.android.iligtas"
+    android:versionCode="1"
+    android:versionName="Jan. 8, 2014" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+        >
+        <activity
+            android:name="usbong.android.iligtas.MainActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="AboutActivity" android:screenOrientation="landscape"></activity>        
+        <activity android:name="Scenario_1_Activity" android:screenOrientation="landscape"></activity>        
+        <activity android:name="Scenario_2_Activity" android:screenOrientation="landscape"></activity>        
+        <activity android:name="Scenario_3_Activity" android:screenOrientation="landscape"></activity>                
+        <activity android:name="Scenario_4_Activity" android:screenOrientation="landscape"></activity>                
+        <activity android:name="Scenario_5_Activity" android:screenOrientation="landscape"></activity>                
+        <activity android:name="Scenario_6_Activity" android:screenOrientation="landscape"></activity>                
+        <activity android:name="Scenario_7_Activity" android:screenOrientation="landscape"></activity>                
+        <activity android:name="Scenario_8_Activity" android:screenOrientation="landscape"></activity>                
+        <activity android:name="Scenario_9_Activity" android:screenOrientation="landscape"></activity>                
+        <activity android:name="Scenario_10_Activity" android:screenOrientation="landscape"></activity>                
+        <activity android:name="Scenario_11_Activity" android:screenOrientation="landscape"></activity>                
+</application>
+</manifest>
